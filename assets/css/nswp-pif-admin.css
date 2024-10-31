@@ -1,0 +1,15 @@
+/* General CSS */
+.nswp-pif-clearfix:before, .nswp-pif-clearfix:after, .nswp-pif-row:before, .nswp-pif-row:after{content: "";display: table;}
+.nswp-pif-clearfix::after, .nswp-pif-row::after{clear: both;}
+.nswp-pif-clear{clear: both;}
+.nswp-pif-cnt-wrap, .nswp-pif-cnt-wrap *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; outline: none;}
+.nswp-pif-right{float:right;}
+.nswp-pif-hide{display: none;}
+.nswp-pif-center{text-align: center;}
+.nswp-pif-text-right{text-align: right;}
+.nswp-pif-no-lr-padding{padding-left: 0 !important; padding-right: 0 !important;}
+.nswp-pif-no-tb-padding{padding-top: 0 !important; padding-bottom: 0 !important;}
+.nswp-pif-pad-top-20{padding:20px 0 0 0;}
+.nswp-pif-no-padding{padding: 0 !important;}
+.nswp-pif-no-margin{margin: 0 !important;}
+.nswp-pif-sett-wrap .nswp-pif-resett-sett-btn{margin: 0 0 0 5px;}
